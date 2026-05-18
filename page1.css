@@ -1,0 +1,173 @@
+
+.body {
+  background-color: #f1f1f1, ;
+  font-family:Arial, sans-serif;
+  padding: 40px;
+}
+
+.hero-title span{
+  background-color: #88CCEA;
+  color: #fff;
+  padding: 5px 15px;
+  line-height: 1.6;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hero-desc {
+  font-size: 19.2px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  background: #88CCEA;
+  display: flex;
+  justify-content: center;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+/*sura w 4e li vih mn lktb*/
+.container {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+}
+
+/*leyn ma ndiru ydirli font ma na3rav shnhu for some reason*/
+body{
+  font-family:Arial, sans-serif;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  color: #036e96;
+  padding: 0 auto;
+}
+
+
+/*yna8em 4e li v display*/
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0px auto;
+  align-items: stretch;
+}
+
+/*card lmdyur vih*/
+.card {
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/*Content card as in lktb w 4ak shi*/
+.card-content {
+  padding: 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  display: block;
+}
+
+h3 {
+  font-size: 19.2px;
+  margin: 0 0 15px 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 0px;
+  flex-grow: 1;
+}
+
+/* anything mt3ala9 b en savoir plus */
+
+.en-savoir-plus button {
+  margin: 0;
+  padding: 8px 16px;
+}
+
+.en-savoir-plus {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  font-size: 14.5px;
+  margin-top: auto; /*link ydiru ta7t*/
+  align-self: flex-start;
+}
+
+.en-savoir-plus:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+}
+
+button {
+  position: relative;
+  border: none;
+  background-color: #88CCEA;
+  height: 50px;
+  width: 120px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  color: #555;
+}
+
+
+
+
+
